@@ -2,6 +2,7 @@ package mathematics;
 
 import java.util.Scanner;
 
+//TC- O(log(max(a,b))) & AS- O(1)
 public class GcdEuclideanTwo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
