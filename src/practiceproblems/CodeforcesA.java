@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.*;
 
 public class CodeforcesA {
-
     private static void sol(FastScanner fs, PrintWriter out) throws IOException {
         int n = fs.nextInt();
         int sum = 0;
