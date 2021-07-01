@@ -1,4 +1,4 @@
-package mathematics;
+package bitmagic;
 
 import java.util.Scanner;
 
