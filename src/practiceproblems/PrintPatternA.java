@@ -3,8 +3,7 @@ package practiceproblems;
 import java.util.Scanner;
 
 public class PrintPatternA {
-    void display(int n)
-    {
+   static void display(int n) {
         for (int i = 0; i<=n; i++) {
             for (int j = 0; j<= n / 2; j++) {
                 if ((j == 0 || j == n / 2) && i != 0 ||
@@ -17,11 +16,9 @@ public class PrintPatternA {
             System.out.println();
         }
     }
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        PrintPatternA a = new PrintPatternA();
         int n = sc.nextInt();
-        a.display(n);
+        display(n);
     }
 }
