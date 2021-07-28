@@ -13,18 +13,17 @@ public class Lapindromes {
         int T = fs.nextInt();
         while (T-- > 0) {
           String name = fs.next();
-          String s1, s2;
+          String s1,s2;
 
-          int n = name.length();
+          int n=name.length();
 
           if(n%2 == 0) {
               s1 = name.substring(0, (n/2));
               s2 = name.substring((n/2), n);
           }else {
-              s1 = name.substring(0,(n/2));
-              s2 = name.substring((n/2)+1,n);
+              s1 = name.substring(0, (n/2));
+              s2 = name.substring((n/2) + 1, n);
           }
-
 
           char c1[] = s1.toCharArray();
           char c2[] = s2.toCharArray();
