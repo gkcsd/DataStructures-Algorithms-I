@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-//TC- O(n)
+//TC- 0(n)
 public class OptimizedLargestElementInArraySolutionOne {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
