@@ -3,7 +3,7 @@ package arrays;
 import java.util.Scanner;
 
 //TC- O(n^2) & AS- O(1)
-public class TrappingRainWaterSolution {
+public class NaiveTrappingRainWaterSolution {
     static int rainWaterGot(int[] arr) {
         int n = arr.length;
         int res = 0;
