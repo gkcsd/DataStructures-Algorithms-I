@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-//TC- O(n*n) & AS- O(1)
+//TC- O((n-k)*k) & AS- O(1)
 public class NaiveWindowSlidingTechniqueSolution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
