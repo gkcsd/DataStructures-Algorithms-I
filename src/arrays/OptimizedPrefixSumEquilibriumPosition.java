@@ -1,7 +1,7 @@
 package arrays;
 
 import java.util.Scanner;
-
+//TC- O(n) & AS- O(1)
 public class OptimizedPrefixSumEquilibriumPosition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
