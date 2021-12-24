@@ -1,7 +1,7 @@
 package searching;
 
 import java.util.Scanner;
-//TC- O(mid) & AS- O(1)
+//TC- O(log(n)) & AS- O(1)
 public class BinarySearchProgramOne {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
