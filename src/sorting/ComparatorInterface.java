@@ -3,7 +3,7 @@ package sorting;
 import java.util.Arrays;
 import java.util.Comparator;
 
-class MyCmp implements Comparator<PointOne> {
+class MyCmpOne implements Comparator<PointOne> {
     public int compare(PointOne p1, PointOne p2) {
         return p1.x - p2.x;
     }
@@ -21,7 +21,7 @@ public class ComparatorInterface {
     public static void main(String[] args) {
         PointOne arr[] = {new PointOne(10, 20), new PointOne(3, 12), new PointOne(5, 7)};
 
-        Arrays.sort(arr, new MyCmp());
+        Arrays.sort(arr, new MyCmpOne());
         for(int i = 0; i < arr.length; i++) {
             System.out.println(arr[i].x + " " + arr[i].y);
         }
