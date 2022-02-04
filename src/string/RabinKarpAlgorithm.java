@@ -19,7 +19,7 @@ import java.util.Scanner;
 //        Hint:t 43
 //        2 14
 
-
+//TC- O((N-M+1)*M) & AS- O(1)
 public class RabinKarpAlgorithm {
     static final int d = 256;
     static final int q = 101;
